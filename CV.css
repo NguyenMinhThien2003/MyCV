@@ -1,0 +1,119 @@
+/*Header--------------------------------------------------------------------------------------------------------------------------------------*/
+.header{
+    display: flex;
+    align-items: flex-start;
+}
+
+.header img{
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 160px;
+    height: 240px;
+    border-radius: 5px;
+}
+
+/*Information*/
+.info{
+    flex-basis: 350px;
+    flex-shrink: 0;
+    padding-right: 90px;
+    border-right: 1px solid grey;
+}
+
+.info h1{
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.info p{
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.info hr{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    color: grey;
+}
+.contact{
+    margin-left: 20px;
+}
+
+.contact h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contact p{
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.icon {
+    margin-top: 0px;
+    margin-right:0px;
+}
+
+.icon img{
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+.linkedin:hover{
+    transform: scale(1.1);
+}
+.fb:hover{
+    transform: scale(1.1);
+}
+.github:hover{
+    transform: scale(1.1);
+}
+
+/*Summary*/
+.summary{
+    flex: 1;
+    flex-shrink: 1;
+    padding-left: 30px;
+}
+
+/*Body----------------------------------------------------------------------------------------------------------------------------------------*/
+.body-cv{
+    margin-left: 90px;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+/*left*/
+.left {
+    flex-basis: 600px;
+    flex-shrink: 0;
+}
+
+.body-cv li{
+    font-size: 20px;
+}
+
+/*right*/
+.right{
+    flex: 1;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+
+.right a{
+    text-decoration: none;
+    counter: black;
+}
+
+.right a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.right a:hover{
+    text-decoration: none;
+    color: blue;
+}
